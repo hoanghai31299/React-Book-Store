@@ -1,0 +1,56 @@
+.book-wrapper {
+    margin-top: 10px;
+    width: 300px;
+    border: .3px solid rgba(0, 0, 0, .4);
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.book-cover {
+    position: relative;
+    overflow: hidden;
+}
+
+.book-cover>span {
+    position: absolute;
+    top: 15px;
+    left: -50px;
+    text-align: center;
+    transform: rotate(-45deg);
+    display: block;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 200px;
+    background: rgba(255, 41, 41, 0.8);
+    color: white;
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.book-info span {
+    display: block;
+    background-color: rgba(207, 255, 129, 0.8);
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-bottom: .5px solid rgba(0, 0, 0, .2);
+}
+
+.book-info>p {
+    height: 200px;
+    text-align: left;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+}
